@@ -33,5 +33,11 @@ public class Task2 {
         }
         return this.text;
     }
+    String t3_append(String txt)
+    {
+        this.text = this.text+" "+ txt;
+        return this.text;
+    }
+
 
 }
